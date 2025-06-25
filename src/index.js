@@ -22,7 +22,7 @@ kreopoliz.once('ready', () => {
 kreopoliz.on('interactionCreate', (interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
-    if (interaction.commandName === 'add') {
+    if (interaction.commandName === 'calc') {
         const num1 = interaction.options.get('first-number').value;
         const num2 = interaction.options.get('second-number').value;
         return interaction.reply(`kanei ${num1 + num2} mathe mathimatika barethika na se boithao`);
