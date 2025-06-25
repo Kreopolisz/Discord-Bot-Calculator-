@@ -3,7 +3,7 @@ const { REST, Routes, ApplicationCommandOptionType } = require('discord.js');
 
 const commands = [
   {
-    name: 'add',
+    name: 'calc',
     description: 'Bale Duo Arithmous Gia Na Breis To Apotelesma.',
     options: [
       {
