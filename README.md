@@ -35,11 +35,11 @@ npm install
 
 Στείλε την εντολή:
 
-/add <num-1> <num-2>
+/calc <num-1> <num-2>
 
 Παράδειγμα:
 
-/add 10 5 
+/calc 10 5 
 
 Απάντηση bot:
 
